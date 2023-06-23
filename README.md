@@ -31,15 +31,15 @@ Use API POST and DELETE routes to create and delete reaction to a thought.
 
 ## Walkthrough-Video
 
-![Demo of how to clone the repository and start the application’s server.](https://drive.google.com/file/d/1PEGQb4Lbce5EyLEmfQVJupjxMoMMhOjH/view?usp=sharing)
+[Demo of how to clone the repository and start the application’s server.](https://drive.google.com/file/d/1PEGQb4Lbce5EyLEmfQVJupjxMoMMhOjH/view?usp=sharing)
 
-![Demo of GET routes to return all users and all thoughts being tested in Insomnia.](https://drive.google.com/file/d/1uX5a6RjVJTcTcC8vqYzBIo7SkejI6rO0/view?usp=sharing)
+[Demo of GET routes to return all users and all thoughts being tested in Insomnia.](https://drive.google.com/file/d/1uX5a6RjVJTcTcC8vqYzBIo7SkejI6rO0/view?usp=sharing)
 
-![Demo that shows GET routes to return a single user and a single thought being tested in Insomnia.](https://drive.google.com/file/d/1jhCJTSTnER6gyp49TKWwTnMNlUwY1T1U/view?usp=sharing)
+[Demo that shows GET routes to return a single user and a single thought being tested in Insomnia.](https://drive.google.com/file/d/1jhCJTSTnER6gyp49TKWwTnMNlUwY1T1U/view?usp=sharing)
 
-![Demo that shows the POST, PUT, and DELETE routes for users being tested in Insomnia.](https://drive.google.com/file/d/1GB0Gxrho_EIMdvJUZDYMkEFZLu6_PJFw/view?usp=sharing)
+[Demo that shows the POST, PUT, and DELETE routes for users being tested in Insomnia.](https://drive.google.com/file/d/1GB0Gxrho_EIMdvJUZDYMkEFZLu6_PJFw/view?usp=sharing)
 
-![Demo that shows the POST and DELETE routes for a user’s friend list being tested in Insomnia.](https://drive.google.com/file/d/1WVyvQLC0ZOlpXi9r4gD328zvGvMnEfSm/view?usp=sharing)
+[Demo that shows the POST and DELETE routes for a user’s friend list being tested in Insomnia.](https://drive.google.com/file/d/1WVyvQLC0ZOlpXi9r4gD328zvGvMnEfSm/view?usp=sharing)
 
 ## License
 
