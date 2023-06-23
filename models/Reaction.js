@@ -1,4 +1,4 @@
-const { Schema } = require('mongoose');
+const { Schema, Types } = require('mongoose');
 
 const reactionSchema = new Schema(
     {
@@ -19,7 +19,7 @@ const reactionSchema = new Schema(
             type: Date,
             default: Date.now,
             get: (date) => {
-                if (date) return date.toISOString().split("T")[0];
+                if (date) return date.toString().substring(0,24);
             },
         },
     },
@@ -27,6 +27,8 @@ const reactionSchema = new Schema(
         toJSON: {
             getters: true,
         },
+        id: false,
+        _id: false,
     }
 );
 
