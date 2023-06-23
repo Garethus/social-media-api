@@ -8,9 +8,9 @@ This is a back-end to build an API for a social network web application where us
 
 ## Table of Contents
 
-* [Walkthrough Video](#Walkthrough-Video)    
 * [Installation](#Installation)  
 * [Usage](#Usage)   
+* [Walkthrough Video](#Walkthrough-Video) 
 * [License](#License)  
 * [Tests](#Tests)  
 * [Questions](#Questions)
@@ -19,8 +19,8 @@ This is a back-end to build an API for a social network web application where us
 
 1. Clone the [repository](https://github.com/Garethus/social-media-api) of this project from Github into your local machine. 
 2. Navigate to the project's directory. 
-3. Then, run `npm install` to install the npm package dependencies. 
-4. Run `npm start` to initiate the server.
+3. Run `npm install` to install the npm package dependencies. 
+4. Then, run `npm start` to initiate the server.
 
 ## Usage
 
@@ -31,13 +31,15 @@ Use API POST and DELETE routes to create and delete reaction to a thought.
 
 ## Walkthrough-Video
 
-![Demo of GET routes to return all users and all thoughts being tested in Insomnia.]()
+![Demo of how to clone the repository and start the application’s server.](https://drive.google.com/file/d/1PEGQb4Lbce5EyLEmfQVJupjxMoMMhOjH/view?usp=drive_link)
 
-![Demo that shows GET routes to return a single user and a single thought being tested in Insomnia.]()
+![Demo of GET routes to return all users and all thoughts being tested in Insomnia.](https://drive.google.com/file/d/1uX5a6RjVJTcTcC8vqYzBIo7SkejI6rO0/view?usp=drive_link)
 
-![Demo that shows the POST, PUT, and DELETE routes for users being tested in Insomnia.]()
+![Demo that shows GET routes to return a single user and a single thought being tested in Insomnia.](https://drive.google.com/file/d/1jhCJTSTnER6gyp49TKWwTnMNlUwY1T1U/view?usp=drive_link)
 
-![Demo that shows the POST and DELETE routes for a user’s friend list being tested in Insomnia.]()
+![Demo that shows the POST, PUT, and DELETE routes for users being tested in Insomnia.](https://drive.google.com/file/d/1GB0Gxrho_EIMdvJUZDYMkEFZLu6_PJFw/view?usp=drive_link)
+
+![Demo that shows the POST and DELETE routes for a user’s friend list being tested in Insomnia.](https://drive.google.com/file/d/1qcwyYluUxZFk5MaH5XEW8P_tmDdTSR66/view?usp=drive_link)
 
 ## License
 
