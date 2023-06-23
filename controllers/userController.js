@@ -8,7 +8,6 @@ module.exports = {
         res.json(users);
       })
       .catch((err) => {
-        console.log(err);
         res.status(500).json(err);
       });
   },
@@ -23,7 +22,6 @@ module.exports = {
           : res.json(user)
       )
       .catch((err) => {
-        console.log(err);
         return res.status(500).json(err);
       });
   },
@@ -32,7 +30,6 @@ module.exports = {
     User.create(req.body)
       .then((user) => res.json(user))
       .catch((err) => {
-        console.log(err);
         res.status(500).json(err)
       });
   },
@@ -61,14 +58,12 @@ module.exports = {
           ? res.status(404).json({ message: 'No such user exists' })
           : Thought.deleteMany({ _id: { $in: user.thoughts } })
       )
-      .then(() => res.json({ message: 'User and thoughts deleted!' }))
+      .then(() => res.json({ message: 'User and associated thoughts deleted!' }))
       .catch((err) => res.status(500).json(err));
   },
 
   // Add a new friend to a user's friend list
   createFriend(req, res) {
-    console.log('You are adding a new friend');
-    console.log(req.body);
     User.findOneAndUpdate(
       { _id: req.params.userId },
       { $addToSet: { friends: req.params.friendId } },
